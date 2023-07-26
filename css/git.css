@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+.header {
+    background: green;
+    height: 20vh;
+}
+.nav {
+    max-width: 1300px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+    column-gap: 25px;
+}
+.logo {
+color: aqua;
+font-size: 34px;
+text-transform: uppercase;
+}
+.link {
+    color: aqua;
+    font-size: 23px;
+}
